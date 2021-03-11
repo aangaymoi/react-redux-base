@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "type": "admin",
+      "name": "admin",
+      "email": "admin@email.com",
+      "password": "password",
+      "_id": "dcbaf542-94fc-4ebd-82bc-558fc073c62a",
+      "uuid": "49964f2a-f5c7-46d6-a155-aa13528d286a",
+      "login_at": 1562710446410,
+      "created_at": 1562710446410,
+      "updated_at": 1562710446410
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Store renders correctly 1`] = `
+<Store
+  actions={
+    Object {
+      "fetchStore": [MockFunction],
+    }
+  }
+  category={
+    Object {
+      "active": Object {
+        "id": 0,
+        "name": "Popular",
+      },
+      "data": Array [],
+    }
+  }
+  store={
+    Object {
+      "data": Array [],
+      "loading": false,
+    }
+  }
+>
+  <div
+    id="Store"
+  >
+    <div>
+      <span>
+        All Stores
+      </span>
+      <span>
+        View All 
+         Stores
+      </span>
+    </div>
+  </div>
+</Store>
+`;

@@ -1,0 +1,15 @@
+/* mobile */
+
+.Main {
+  min-width: 100%;
+  height: auto;
+  margin: 0px auto;
+}
+
+/* desktop */
+@media (min-width: 768px) {
+  .Main {
+    min-width: 768px;
+    max-width: 1024px;
+  }
+}

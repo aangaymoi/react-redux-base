@@ -1,0 +1,67 @@
+/* mobile */
+
+.Scroll {
+  min-height: 65px;
+}
+
+.Bar {
+  min-width: 100%;
+  min-height: 60px;
+  margin: 0px auto 5px auto;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Bar > .Tab {
+  min-width: 40%;
+  padding: 3px;
+  border-bottom: 1px solid silver;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid silver;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.Bar > .Tab:nth-child(2n + 1) {
+  border-left: 1px solid silver;
+  border-right: 1px solid silver;
+}
+
+.Bar > .Tab > div {
+  min-width: 60%;
+  min-height: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.Bar > .Tab > img {
+  min-height: 24px;
+  max-height: 24px;
+  display: block;
+  margin: 5px auto;
+}
+
+.Bar > .TabActive {
+  border-bottom: 2px solid red;
+  color: red;
+}
+
+/* desktop */
+@media (min-width: 768px) {
+  .Scroll {
+    min-height: 100px;
+  }
+
+  .Bar > .Tab {
+    min-width: calc(100% / 9);
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,87 @@
+/* mobile */
+
+.Grid {
+  --auto-grid-min-size: 30%;
+
+  margin: 5px auto;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(var(--auto-grid-min-size), 1fr)
+  );
+  grid-gap: 3px;
+  justify-items: stretch;
+}
+
+.Grid > .Brand {
+  width: 100%;
+  margin: 10px auto;
+}
+
+.Grid > .Brand:nth-child(n + 9) {
+  display: none;
+}
+
+.Grid > .Brand > div {
+  max-width: 13ch;
+  max-height: 1.5rem;
+  color: red;
+  overflow: hidden;
+  text-align: center;
+}
+
+.Grid > .Brand > img {
+  max-width: 100%;
+  min-height: 32px;
+  max-height: 32px;
+  display: block;
+  margin: 0px auto;
+}
+
+.Grid > .Btn {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: blue;
+}
+
+.Grid > .Btn > span:nth-child(2) {
+  display: none;
+}
+
+/* desktop */
+@media (min-width: 768px) {
+  .Grid {
+    --auto-grid-min-size: 15%;
+  }
+
+  .Grid > .Brand:nth-child(n + 9) {
+    display: block;
+  }
+
+  .Grid > .Brand > div {
+    max-width: unset;
+    min-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: unset;
+  }
+
+  .Grid > .Btn {
+    min-height: 2rem;
+    grid-column: 1/-1;
+    color: red;
+    background-color: silver;
+  }
+
+  .Grid > .Btn > span:nth-child(1) {
+    display: none;
+  }
+
+  .Grid > .Btn > span:nth-child(2) {
+    display: unset;
+  }
+}

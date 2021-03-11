@@ -1,0 +1,1381 @@
+// just a stub
+
+export const data = [
+  {
+    categoryId: 0,
+    alt: "Qoo10 Coupons & Promo Codes",
+    displayText: "Up to 2.0% Cashback",
+    id: 917,
+    isSpecialStore: false,
+    logoUrl: "https://static.shopback.com/uploads/ci/143830/logo-qoo10.gif",
+    name: "Qoo10",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/qoo10"
+  },
+  {
+    categoryId: 0,
+    alt: "Shopee Coupons & Promo Codes",
+    displayText: "Up to 8.0% Cashback via ShopBack App",
+    id: 1816,
+    isSpecialStore: true,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1816/shopee.png",
+    name: "Shopee",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/shopee"
+  },
+  {
+    categoryId: 0,
+    alt: "Hotels.com Coupons & Promo Codes",
+    displayText: "4.0% Cashback",
+    id: 271,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/271/271_logo_067c0db9.png",
+    name: "Hotels.com",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/hotels-com"
+  },
+  {
+    categoryId: 0,
+    alt: "Expedia Coupons & Promo Codes",
+    displayText: "Up to 6.0% Cashback",
+    id: 102,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/102/expedia-coupon-1.png",
+    name: "Expedia",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/expedia"
+  },
+  {
+    categoryId: 0,
+    alt: "Booking.com Coupons & Promo Codes",
+    displayText: "6.0% Cashback",
+    id: 318,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/318/318_logo_a567c6b3.png",
+    name: "Booking.com",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/booking-com"
+  },
+  {
+    categoryId: 0,
+    alt: "Agoda Coupons & Promo Codes",
+    displayText: "6.0% Cashback",
+    id: 838,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/838/838_logo_8573b983.png",
+    name: "Agoda",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/agoda"
+  },
+  {
+    categoryId: 0,
+    alt: "Foodpanda Coupons & Promo Codes",
+    displayText: "Up to 8.0% Cashback",
+    id: 81,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/81/81_logo_b5e671a3.png",
+    name: "Foodpanda",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/foodpanda"
+  },
+  {
+    categoryId: 0,
+    alt: "Deliveroo Coupons & Promo Codes",
+    displayText: "2.5% Cashback",
+    id: 1657,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1657/1657_logo_63185385.png",
+    name: "Deliveroo",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/deliveroo"
+  },
+  {
+    categoryId: 0,
+    alt: "Fave by Groupon Coupons & Promo Codes",
+    displayText: "Up to 4.5% Cashback",
+    id: 2175,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2175/2175_logo_b039552e.png",
+    name: "Fave by Groupon",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/fave"
+  },
+  {
+    categoryId: 0,
+    alt: "Taobao Coupons & Promo Codes",
+    displayText: "Up to 10.0% Cash Rewards",
+    id: 1012,
+    isSpecialStore: true,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1012/1012_logo_2ef6161b.png",
+    name: "Taobao",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/taobao"
+  },
+  {
+    categoryId: 0,
+    alt: "FairPrice ON Coupons & Promo Codes",
+    displayText: "Up to 4.0% Cashback",
+    id: 2600,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2600/2600_logo_a7bb3aaa.png",
+    name: "FairPrice ON",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/fairprice-on"
+  },
+  {
+    categoryId: 0,
+    alt: "iHerb Coupons & Promo Codes",
+    displayText: "7.0% Cashback",
+    id: 40,
+    isSpecialStore: true,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/40/iherb-coupon-1.png",
+    name: "iHerb",
+    oldDisplayText: "Was 5.0%",
+    oldPreviewText: "Was 5.0%",
+    shortname: "/iherb"
+  },
+  {
+    categoryId: 2,
+    alt: "Foodpanda Coupons & Promo Codes",
+    displayText: "Up to 8.0% Cashback",
+    id: 81,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/81/81_logo_b5e671a3.png",
+    name: "Foodpanda",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/foodpanda"
+  },
+  {
+    categoryId: 2,
+    alt: "Deliveroo Coupons & Promo Codes",
+    displayText: "2.5% Cashback",
+    id: 1657,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1657/1657_logo_63185385.png",
+    name: "Deliveroo",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/deliveroo"
+  },
+  {
+    categoryId: 2,
+    alt: "Fave by Groupon Coupons & Promo Codes",
+    displayText: "Up to 4.5% Cashback",
+    id: 2175,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2175/2175_logo_b039552e.png",
+    name: "Fave by Groupon",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/fave"
+  },
+  {
+    categoryId: 2,
+    alt: "honestbee Coupons & Promo Codes",
+    displayText: "Temporarily Unavailable",
+    id: 1067,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1067/1067_logo_02d4b140.png",
+    name: "honestbee",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/honestbee"
+  },
+  {
+    categoryId: 2,
+    alt: "HungryGoWhere Reservations Coupons & Promo Codes",
+    displayText: "$2.50 Cashback",
+    id: 2474,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2474/2474_logo_75ff5700.png",
+    name: "HungryGoWhere Reservations",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/hungry-go-where"
+  },
+  {
+    categoryId: 2,
+    alt: "HungryGoWhere Delivery Coupons & Promo Codes",
+    displayText: "$1 Cashback",
+    id: 2481,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2481/2481_logo_25faf798.png",
+    name: "HungryGoWhere Delivery",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/hungry-go-where-delivery"
+  },
+  {
+    categoryId: 2,
+    alt: "Eatigo Coupons & Promo Codes",
+    displayText: "$1.50 Cashback",
+    id: 2391,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2391/2391_logo_4b78a0aa.jpg",
+    name: "Eatigo",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/eatigo"
+  },
+  {
+    categoryId: 2,
+    alt: "Quandoo Coupons & Promo Codes",
+    displayText: "$4 Cashback",
+    id: 2005,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2005/2005_logo_f5e2f821.png",
+    name: "Quandoo",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/quandoo"
+  },
+  {
+    categoryId: 2,
+    alt: "Cat & the Fiddle Coupons & Promo Codes",
+    displayText: "5.0% Cashback",
+    id: 2020,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2020/2020_logo_b5cf39f1.png",
+    name: "Cat & the Fiddle",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/cat-and-the-fiddle"
+  },
+  {
+    categoryId: 2,
+    alt: "Spizza Coupons & Promo Codes",
+    displayText: "5.0% Cashback",
+    id: 2072,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2072/2072_logo_2c98746f.png",
+    name: "Spizza",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/spizza"
+  },
+  {
+    categoryId: 2,
+    alt: "Stamford Catering Coupons & Promo Codes",
+    displayText: "Up to 3.0% Cashback",
+    id: 2100,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2100/2100_logo_be23d682.JPG",
+    name: "Stamford Catering",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/stamford-catering"
+  },
+  {
+    categoryId: 2,
+    alt: "Walgreens Coupons & Promo Codes",
+    displayText: "Up to 6.0% Cashback",
+    id: 842,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/842/walgreens-coupon.png",
+    name: "Walgreens",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/walgreens"
+  },
+  {
+    categoryId: 3,
+    alt: "Qoo10 Coupons & Promo Codes",
+    displayText: "Up to 2.0% Cashback",
+    id: 917,
+    isSpecialStore: false,
+    logoUrl: "https://static.shopback.com/uploads/ci/143830/logo-qoo10.gif",
+    name: "Qoo10",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/qoo10"
+  },
+  {
+    categoryId: 3,
+    alt: "Shopee Coupons & Promo Codes",
+    displayText: "Up to 8.0% Cashback via ShopBack App",
+    id: 1816,
+    isSpecialStore: true,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1816/shopee.png",
+    name: "Shopee",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/shopee"
+  },
+  {
+    categoryId: 3,
+    alt: "Hachi.tech (Challenger) Coupons & Promo Codes",
+    displayText: "Up to 3.0% Cashback",
+    id: 2484,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2484/2484_logo_d01d4351.png",
+    name: "Hachi.tech (Challenger)",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/hachi-tech"
+  },
+  {
+    categoryId: 3,
+    alt: "Apple Online  Coupons & Promo Codes",
+    displayText: "1.0% Cashback",
+    id: 1958,
+    isSpecialStore: false,
+    logoUrl:
+      "https://static.shopback.com/uploads/ci/375152/screativeref-1101l7160.jpg",
+    name: "Apple Online ",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/apple-online-store"
+  },
+  {
+    categoryId: 3,
+    alt: "Newegg Coupons & Promo Codes",
+    displayText: "Up to 0.75% Cashback",
+    id: 284,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/284/newegg-coupon.png",
+    name: "Newegg",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/newegg"
+  },
+  {
+    categoryId: 3,
+    alt: "GearBest Coupons & Promo Codes",
+    displayText: "0.75% Cashback",
+    id: 501,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/501/gearbest-coupon-2.png",
+    name: "GearBest",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/gearbest"
+  },
+  {
+    categoryId: 3,
+    alt: "Microsoft Store Coupons & Promo Codes",
+    displayText: "Up to 7.0% Cashback",
+    id: 2004,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2004/microsoft-coupon.jpg",
+    name: "Microsoft Store",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/microsoft-store"
+  },
+  {
+    categoryId: 3,
+    alt: "GamersGate.com Coupons & Promo Codes",
+    displayText: "6.0% Cashback",
+    id: 440,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/440/440_logo_ffd71bf8.png",
+    name: "GamersGate.com",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/gamersgate-com"
+  },
+  {
+    categoryId: 3,
+    alt: "Banggood Coupons & Promo Codes",
+    displayText: "Up to 5.0% Cashback",
+    id: 2501,
+    isSpecialStore: false,
+    logoUrl:
+      "https://shopily-sg.s3.amazonaws.com/uploads/stores/2501/2501_logo_bccff003.png",
+    name: "Banggood",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/banggood"
+  },
+  {
+    categoryId: 3,
+    alt: "ebay Coupons & Promo Codes",
+    displayText: "1.0% Cashback",
+    id: 928,
+    isSpecialStore: false,
+    logoUrl:
+      "https://static.shopback.com/uploads/merchant_logo/ebay-discount-coupons-0408.jpg",
+    name: "ebay",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/ebay"
+  },
+  {
+    categoryId: 3,
+    alt: "HP Coupons & Promo Codes",
+    displayText: "Up to 6.0% Cashback",
+    id: 1651,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1651/hp-coupon-1.png",
+    name: "HP",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/hp"
+  },
+  {
+    categoryId: 3,
+    alt: "Lenovo Coupons & Promo Codes",
+    displayText: "6.0% Cashback",
+    id: 831,
+    isSpecialStore: false,
+    logoUrl: "https://static.shopback.com/uploads/ci/129672/lenovo.png",
+    name: "Lenovo",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/lenovo"
+  },
+  {
+    categoryId: 4,
+    alt: "Qoo10 Coupons & Promo Codes",
+    displayText: "Up to 2.0% Cashback",
+    id: 917,
+    isSpecialStore: false,
+    logoUrl: "https://static.shopback.com/uploads/ci/143830/logo-qoo10.gif",
+    name: "Qoo10",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/qoo10"
+  },
+  {
+    categoryId: 4,
+    alt: "Shopee Coupons & Promo Codes",
+    displayText: "Up to 8.0% Cashback via ShopBack App",
+    id: 1816,
+    isSpecialStore: true,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1816/shopee.png",
+    name: "Shopee",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/shopee"
+  },
+  {
+    categoryId: 4,
+    alt: "Taobao Coupons & Promo Codes",
+    displayText: "Up to 10.0% Cash Rewards",
+    id: 1012,
+    isSpecialStore: true,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1012/1012_logo_2ef6161b.png",
+    name: "Taobao",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/taobao"
+  },
+  {
+    categoryId: 4,
+    alt: "ZALORA Coupons & Promo Codes",
+    displayText: "2.0% Cashback",
+    id: 93,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/93/zalora-coupon-1.png",
+    name: "ZALORA",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/zalora"
+  },
+  {
+    categoryId: 4,
+    alt: "Cotton On Coupons & Promo Codes",
+    displayText: "11.0% Cashback",
+    id: 1200,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1200/cotton-on-coupon-.png",
+    name: "Cotton On",
+    oldDisplayText: "Was 5.0%",
+    oldPreviewText: "Was 5.0%",
+    shortname: "/cotton-on"
+  },
+  {
+    categoryId: 4,
+    alt: "Shopbop Coupons & Promo Codes",
+    displayText: "4.0% Cashback",
+    id: 388,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/388/388_logo_92b50f13.png",
+    name: "Shopbop",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/shopbop"
+  },
+  {
+    categoryId: 4,
+    alt: "Charles & Keith Coupons & Promo Codes",
+    displayText: "Up to 4.5% Cashback",
+    id: 901,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/901/charlesandkeith-coupon.png",
+    name: "Charles & Keith",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/charles-and-keith"
+  },
+  {
+    categoryId: 4,
+    alt: "MR PORTER Coupons & Promo Codes",
+    displayText: "Up to 3.0% Cashback",
+    id: 2060,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2060/2060_logo_d3f3176a.png",
+    name: "MR PORTER",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/mr-porter"
+  },
+  {
+    categoryId: 4,
+    alt: "NET-A-PORTER Coupons & Promo Codes",
+    displayText: "Up to 7.0% Cashback",
+    id: 1675,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1675/nap.png",
+    name: "NET-A-PORTER",
+    oldDisplayText: "Was <3.0%",
+    oldPreviewText: "Was <3.0%",
+    shortname: "/net-a-porter"
+  },
+  {
+    categoryId: 4,
+    alt: "Yoox Coupons & Promo Codes",
+    displayText: "5.0% Cashback",
+    id: 534,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/534/534_logo_268d190d.png",
+    name: "Yoox",
+    oldDisplayText: "Was 2.0%",
+    oldPreviewText: "Was 2.0%",
+    shortname: "/yoox-com"
+  },
+  {
+    categoryId: 4,
+    alt: "Nike Coupons & Promo Codes",
+    displayText: "15.0% Cashback",
+    id: 1078,
+    isSpecialStore: false,
+    logoUrl:
+      "https://static.shopback.com/uploads/merchant_logo/1078/nikelogo.png",
+    name: "Nike",
+    oldDisplayText: "Was 2.0%",
+    oldPreviewText: "Was 2.0%",
+    shortname: "/nike"
+  },
+  {
+    categoryId: 6,
+    alt: "Qoo10 Coupons & Promo Codes",
+    displayText: "Up to 2.0% Cashback",
+    id: 917,
+    isSpecialStore: false,
+    logoUrl: "https://static.shopback.com/uploads/ci/143830/logo-qoo10.gif",
+    name: "Qoo10",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/qoo10"
+  },
+  {
+    categoryId: 6,
+    alt: "Shopee Coupons & Promo Codes",
+    displayText: "Up to 8.0% Cashback via ShopBack App",
+    id: 1816,
+    isSpecialStore: true,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1816/shopee.png",
+    name: "Shopee",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/shopee"
+  },
+  {
+    categoryId: 6,
+    alt: "Taobao Coupons & Promo Codes",
+    displayText: "Up to 10.0% Cash Rewards",
+    id: 1012,
+    isSpecialStore: true,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1012/1012_logo_2ef6161b.png",
+    name: "Taobao",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/taobao"
+  },
+  {
+    categoryId: 6,
+    alt: "FairPrice ON Coupons & Promo Codes",
+    displayText: "Up to 4.0% Cashback",
+    id: 2600,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2600/2600_logo_a7bb3aaa.png",
+    name: "FairPrice ON",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/fairprice-on"
+  },
+  {
+    categoryId: 6,
+    alt: "EAMART Coupons & Promo Codes",
+    displayText: "Up to 10.0% Cashback",
+    id: 2604,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2604/2604_logo_033ae7de.png",
+    name: "EAMART",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/eamart"
+  },
+  {
+    categoryId: 6,
+    alt: "Amazon Japan Coupons & Promo Codes",
+    displayText: "1.0% Cashback",
+    id: 2502,
+    isSpecialStore: false,
+    logoUrl:
+      "https://shopily-sg.s3.amazonaws.com/uploads/stores/2502/2502_logo_d6d4ba48.jpg",
+    name: "Amazon Japan",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/amazon-japan"
+  },
+  {
+    categoryId: 6,
+    alt: "Walmart Coupons & Promo Codes",
+    displayText: "Up to 2.5% Cashback",
+    id: 935,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/935/walmart-coupon%20(1).png",
+    name: "Walmart",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/walmart"
+  },
+  {
+    categoryId: 6,
+    alt: "Rakuten Global Market Coupons & Promo Codes",
+    displayText: "2.0% Cashback",
+    id: 330,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/330/330_logo_b668208d.png",
+    name: "Rakuten Global Market",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/rakuten-global"
+  },
+  {
+    categoryId: 6,
+    alt: "A1Supplements.com Coupons & Promo Codes",
+    displayText: "1.0% Cashback",
+    id: 491,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/491/a1supplements-coupon-1.png",
+    name: "A1Supplements.com",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/a1supplements-com"
+  },
+  {
+    categoryId: 6,
+    alt: "The Cocoa Trees Coupons & Promo Codes",
+    displayText: "3.0% Cashback",
+    id: 1493,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1493/1493_logo_81ecef39.png",
+    name: "The Cocoa Trees",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/the-cocoa-trees"
+  },
+  {
+    categoryId: 6,
+    alt: "BRAND’S Coupons & Promo Codes",
+    displayText: "5.0% Cashback",
+    id: 1104,
+    isSpecialStore: false,
+    logoUrl:
+      "https://static.shopback.com/uploads/merchant_logo/brandsworld.png",
+    name: "BRAND’S",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/brands"
+  },
+  {
+    categoryId: 6,
+    alt: "PETCO Animal Supplies Coupons & Promo Codes",
+    displayText: "up to 6.0% Cashback",
+    id: 1054,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1054/petco-animal-supplies-coupon.png",
+    name: "PETCO Animal Supplies",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/petco"
+  },
+  {
+    categoryId: 7,
+    alt: "Shopee Coupons & Promo Codes",
+    displayText: "Up to 8.0% Cashback via ShopBack App",
+    id: 1816,
+    isSpecialStore: true,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1816/shopee.png",
+    name: "Shopee",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/shopee"
+  },
+  {
+    categoryId: 7,
+    alt: "iHerb Coupons & Promo Codes",
+    displayText: "7.0% Cashback",
+    id: 40,
+    isSpecialStore: true,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/40/iherb-coupon-1.png",
+    name: "iHerb",
+    oldDisplayText: "Was 5.0%",
+    oldPreviewText: "Was 5.0%",
+    shortname: "/iherb"
+  },
+  {
+    categoryId: 7,
+    alt: "Sephora Coupons & Promo Codes",
+    displayText: "Up to 5.0% Cashback",
+    id: 1025,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1025/1025_logo_fbd50ea3.svg",
+    name: "Sephora",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/sephora"
+  },
+  {
+    categoryId: 7,
+    alt: "Vaniday Coupons & Promo Codes",
+    displayText: "5.0% Cashback",
+    id: 2017,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2017/Vaniday-coupon.png",
+    name: "Vaniday",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/vaniday"
+  },
+  {
+    categoryId: 7,
+    alt: "Althea Coupons & Promo Codes",
+    displayText: "5.0% Cashback",
+    id: 1093,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1093/1093_logo_81b4c260.png",
+    name: "Althea",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/althea"
+  },
+  {
+    categoryId: 7,
+    alt: "Hermo Coupons & Promo Codes",
+    displayText: "3.5% Cashback",
+    id: 948,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/948/948_logo_d9eefd24.png",
+    name: "Hermo",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/hermo"
+  },
+  {
+    categoryId: 7,
+    alt: "Lookfantastic Singapore Coupons & Promo Codes",
+    displayText: "Up to 5.0% Cashback",
+    id: 2013,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2013/lookfantastic-coupon.png",
+    name: "Lookfantastic Singapore",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/lookfantastic"
+  },
+  {
+    categoryId: 7,
+    alt: "Guardian Coupons & Promo Codes",
+    displayText: "2.0% Cashback",
+    id: 1565,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1565/guardian-coupon-.png",
+    name: "Guardian",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/guardian"
+  },
+  {
+    categoryId: 7,
+    alt: "StrawberryNET Coupons & Promo Codes",
+    displayText: "7.0% Cashback",
+    id: 294,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/294/strawberrynet-coupon-1.png",
+    name: "StrawberryNET",
+    oldDisplayText: "Was 4.0%",
+    oldPreviewText: "Was 4.0%",
+    shortname: "/strawberrynet-com"
+  },
+  {
+    categoryId: 7,
+    alt: "iShopChangi Coupons & Promo Codes",
+    displayText: "$6 Cashback",
+    id: 2402,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2402/2402_logo_e05ca15b.png",
+    name: "iShopChangi",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/ishopchangi"
+  },
+  {
+    categoryId: 7,
+    alt: "SK-II Coupons & Promo Codes",
+    displayText: "3.5% Cashback",
+    id: 1339,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1339/sk-ii-coupon-.png",
+    name: "SK-II",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/sk-ii"
+  },
+  {
+    categoryId: 7,
+    alt: "GNC Coupons & Promo Codes",
+    displayText: "5.0% Cashback",
+    id: 2415,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2415/2415_logo_cd7ba67c.jpg",
+    name: "GNC",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/gnc"
+  },
+  {
+    categoryId: 8,
+    alt: "Qoo10 Coupons & Promo Codes",
+    displayText: "Up to 2.0% Cashback",
+    id: 917,
+    isSpecialStore: false,
+    logoUrl: "https://static.shopback.com/uploads/ci/143830/logo-qoo10.gif",
+    name: "Qoo10",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/qoo10"
+  },
+  {
+    categoryId: 8,
+    alt: "Shopee Coupons & Promo Codes",
+    displayText: "Up to 8.0% Cashback via ShopBack App",
+    id: 1816,
+    isSpecialStore: true,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1816/shopee.png",
+    name: "Shopee",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/shopee"
+  },
+  {
+    categoryId: 8,
+    alt: "Taobao Coupons & Promo Codes",
+    displayText: "Up to 10.0% Cash Rewards",
+    id: 1012,
+    isSpecialStore: true,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1012/1012_logo_2ef6161b.png",
+    name: "Taobao",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/taobao"
+  },
+  {
+    categoryId: 8,
+    alt: "HipVan Coupons & Promo Codes",
+    displayText: "1.5% Cashback",
+    id: 685,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/685/685_logo_cd96ffd1.png",
+    name: "HipVan",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/hipvan"
+  },
+  {
+    categoryId: 8,
+    alt: "Naiise Coupons & Promo Codes",
+    displayText: "6.0% Cashback",
+    id: 1855,
+    isSpecialStore: false,
+    logoUrl: "https://static.shopback.com/uploads/ci/364488/Untitled-1.png",
+    name: "Naiise",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/naiise"
+  },
+  {
+    categoryId: 8,
+    alt: "Helpling Coupons & Promo Codes",
+    displayText: "Up to $30 Cashback",
+    id: 2426,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2426/2426_logo_dc956864.png",
+    name: "Helpling",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/helpling"
+  },
+  {
+    categoryId: 8,
+    alt: "Bed Bath & Beyond Coupons & Promo Codes",
+    displayText: "3.0% Cashback",
+    id: 2498,
+    isSpecialStore: false,
+    logoUrl:
+      "https://shopily-sg.s3.amazonaws.com/uploads/stores/2498/2498_logo_81f0a24d.png",
+    name: "Bed Bath & Beyond",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/bed-bath-and-beyond"
+  },
+  {
+    categoryId: 8,
+    alt: "Barnes & Noble Coupons & Promo Codes",
+    displayText: "3.0% Cashback",
+    id: 2497,
+    isSpecialStore: false,
+    logoUrl:
+      "https://shopily-sg.s3.amazonaws.com/uploads/stores/2497/2497_logo_a625a7da.png",
+    name: "Barnes & Noble",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/barnes-and-noble"
+  },
+  {
+    categoryId: 8,
+    alt: "AliExpress Coupons & Promo Codes",
+    displayText: "Up to 7.0% Cashback",
+    id: 49,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/49/49_logo_86958e96.png",
+    name: "AliExpress",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/aliexpress"
+  },
+  {
+    categoryId: 8,
+    alt: "Villeroy and Boch Tableware Coupons & Promo Codes",
+    displayText: "4.0% Cashback",
+    id: 1177,
+    isSpecialStore: false,
+    logoUrl:
+      "https://static.shopback.com/uploads/merchant_logo/villeroyboch.jpg",
+    name: "Villeroy and Boch Tableware",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/villeroy-boch"
+  },
+  {
+    categoryId: 8,
+    alt: "Overstock.com Coupons & Promo Codes",
+    displayText: "Up to 5.0% Cashback",
+    id: 286,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/286/overstockcom-coupon.png",
+    name: "Overstock.com",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/overstock-com"
+  },
+  {
+    categoryId: 8,
+    alt: "TANGS.com Coupons & Promo Codes",
+    displayText: "$2 Cashback ",
+    id: 2536,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2536/2536_logo_c94d2d4d.jpg",
+    name: "TANGS.com",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/tangs"
+  },
+  {
+    categoryId: 11,
+    alt: "Qoo10 Coupons & Promo Codes",
+    displayText: "Up to 2.0% Cashback",
+    id: 917,
+    isSpecialStore: false,
+    logoUrl: "https://static.shopback.com/uploads/ci/143830/logo-qoo10.gif",
+    name: "Qoo10",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/qoo10"
+  },
+  {
+    categoryId: 11,
+    alt: "Fave by Groupon Coupons & Promo Codes",
+    displayText: "Up to 4.5% Cashback",
+    id: 2175,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2175/2175_logo_b039552e.png",
+    name: "Fave by Groupon",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/fave"
+  },
+  {
+    categoryId: 11,
+    alt: "Taobao Coupons & Promo Codes",
+    displayText: "Up to 10.0% Cash Rewards",
+    id: 1012,
+    isSpecialStore: true,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1012/1012_logo_2ef6161b.png",
+    name: "Taobao",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/taobao"
+  },
+  {
+    categoryId: 11,
+    alt: "Finish Line Coupons & Promo Codes",
+    displayText: "3.5% Cashback",
+    id: 2494,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2494/2494_logo_9827d96b.png",
+    name: "Finish Line",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/finish-line"
+  },
+  {
+    categoryId: 11,
+    alt: "Under Armour Coupons & Promo Codes",
+    displayText: "Up to 6.0% Cashback",
+    id: 1106,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1106/under-armour-coupon-.png",
+    name: "Under Armour",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/under-armour"
+  },
+  {
+    categoryId: 11,
+    alt: "Manchester United Coupons & Promo Codes",
+    displayText: "2.0% Cashback",
+    id: 467,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/467/manchester-united-coupon.png",
+    name: "Manchester United",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/manchester-united"
+  },
+  {
+    categoryId: 11,
+    alt: "Backcountry Coupons & Promo Codes",
+    displayText: "5.0% Cashback",
+    id: 1613,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1613/backcountry-coupon%20(1).png",
+    name: "Backcountry",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/backcountry"
+  },
+  {
+    categoryId: 11,
+    alt: "Samsonite Coupons & Promo Codes",
+    displayText: "4.5% Cashback",
+    id: 332,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/332/samsonite-coupon.png",
+    name: "Samsonite",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/samsonite"
+  },
+  {
+    categoryId: 11,
+    alt: "Athleta Coupons & Promo Codes",
+    displayText: "3.0% Cashback",
+    id: 2495,
+    isSpecialStore: false,
+    logoUrl:
+      "https://shopily-sg.s3.amazonaws.com/uploads/stores/2495/2495_logo_283572a9.png",
+    name: "Athleta",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/athleta"
+  },
+  {
+    categoryId: 11,
+    alt: "Oakley Coupons & Promo Codes",
+    displayText: "4% Cashback",
+    id: 62,
+    isSpecialStore: false,
+    logoUrl: "https://static.shopback.com/uploads/ci/15545/oakley logo.png",
+    name: "Oakley",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/oakley"
+  },
+  {
+    categoryId: 11,
+    alt: "ASMC - The Adventure Company Coupons & Promo Codes",
+    displayText: "4.0% Cashback",
+    id: 601,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/601/asmc-the-adventure-company-coupon.png",
+    name: "ASMC - The Adventure Company",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/asmc"
+  },
+  {
+    categoryId: 12,
+    alt: "Hotels.com Coupons & Promo Codes",
+    displayText: "4.0% Cashback",
+    id: 271,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/271/271_logo_067c0db9.png",
+    name: "Hotels.com",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/hotels-com"
+  },
+  {
+    categoryId: 12,
+    alt: "Expedia Coupons & Promo Codes",
+    displayText: "Up to 6.0% Cashback",
+    id: 102,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/102/expedia-coupon-1.png",
+    name: "Expedia",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/expedia"
+  },
+  {
+    categoryId: 12,
+    alt: "Booking.com Coupons & Promo Codes",
+    displayText: "6.0% Cashback",
+    id: 318,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/318/318_logo_a567c6b3.png",
+    name: "Booking.com",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/booking-com"
+  },
+  {
+    categoryId: 12,
+    alt: "Agoda Coupons & Promo Codes",
+    displayText: "6.0% Cashback",
+    id: 838,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/838/838_logo_8573b983.png",
+    name: "Agoda",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/agoda"
+  },
+  {
+    categoryId: 12,
+    alt: "Fave by Groupon Coupons & Promo Codes",
+    displayText: "Up to 4.5% Cashback",
+    id: 2175,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2175/2175_logo_b039552e.png",
+    name: "Fave by Groupon",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/fave"
+  },
+  {
+    categoryId: 12,
+    alt: "Airbnb Coupons & Promo Codes",
+    displayText: "$5 Cashback",
+    id: 1604,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/1604/1604_logo_d3100176.png",
+    name: "Airbnb",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/airbnb"
+  },
+  {
+    categoryId: 12,
+    alt: "Trip.com Coupons & Promo Codes",
+    displayText: "Up to 6.0% Cashback",
+    id: 671,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/671/671_logo_983cdc96.png",
+    name: "Trip.com",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/trip-com"
+  },
+  {
+    categoryId: 12,
+    alt: "FWD Insurance Coupons & Promo Codes",
+    displayText: "Up to $45 Cashback",
+    id: 2074,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2074/2074_logo_367d817c.png",
+    name: "FWD Insurance",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/fwd-insurance"
+  },
+  {
+    categoryId: 12,
+    alt: "AccorHotels.com Coupons & Promo Codes",
+    displayText: "Up to 6.0% Cashback",
+    id: 432,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/432/432_logo_08025cb3.png",
+    name: "AccorHotels.com",
+    oldDisplayText: "Was <4.0%",
+    oldPreviewText: "Was <4.0%",
+    shortname: "/accor-hotels"
+  },
+  {
+    categoryId: 12,
+    alt: "ZUJI Coupons & Promo Codes",
+    displayText: "Up to 6.5% Cashback",
+    id: 52,
+    isSpecialStore: false,
+    logoUrl:
+      "https://static.shopback.com/product/237/zuji-discount-coupons-2209.jpg",
+    name: "ZUJI",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/zuji"
+  },
+  {
+    categoryId: 12,
+    alt: "Klook SG Coupons & Promo Codes",
+    displayText: "Up to 3.5% Cashback",
+    id: 2480,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2480/2480_logo_4efabb11.png",
+    name: "Klook SG",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/klook-sg"
+  },
+  {
+    categoryId: 12,
+    alt: "Lufthansa Coupons & Promo Codes",
+    displayText: "1.0% Cashback",
+    id: 2602,
+    isSpecialStore: false,
+    logoUrl:
+      "https://cloud.shopback.com/t_sd_250_pad,f_auto,fl_lossy,q_auto/sg-store/2602/2602_logo_f519b095.png",
+    name: "Lufthansa",
+    oldDisplayText: "",
+    oldPreviewText: "",
+    shortname: "/lufthansa"
+  }
+]
+
+export const fetchStoreApi = categoryId => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve(data.filter(elm => elm.categoryId === categoryId))
+    }, 500)
+  })
+}

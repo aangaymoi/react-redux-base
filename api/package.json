@@ -1,0 +1,129 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "api",
+  "keywords": [
+    "api"
+  ],
+  "author": "vanhtt",
+  "license": "ISC",
+  "main": "source/server.js",
+  "scripts": {
+    "clean": "better-npm-run clean",
+    "prebuild": "npm run clean",
+    "build": "better-npm-run build",
+    "prestart": "npm run build",
+    "start": "better-npm-run start",
+    "devel": "better-npm-run devel",
+    "test": "better-npm-run test"
+  },
+  "betterScripts": {
+    "clean": {
+      "command": "node --require ./scripts/babel.js ./scripts/clean.ts",
+      "env": {
+        "NODE_ENV": "production",
+        "DEBUG": "api*",
+        "PORT": "3000",
+        "VERSION": "v1"
+      }
+    },
+    "build": {
+      "command": "babel source --out-dir build --extensions .js,.jsx,.ts,.tsx --source-maps",
+      "env": {
+        "NODE_ENV": "production",
+        "DEBUG": "api*",
+        "PORT": "3000",
+        "VERSION": "v1"
+      }
+    },
+    "start": {
+      "command": "node ./build/server.js",
+      "env": {
+        "NODE_ENV": "production",
+        "DEBUG": "api*",
+        "PORT": "3000",
+        "VERSION": "v1"
+      }
+    },
+    "devel": {
+      "command": "nodemon --watch ./source -e js,ts,jsx,tsx --inspect --require ./scripts/babel.js ./source/server.ts",
+      "env": {
+        "NODE_ENV": "development",
+        "DEBUG": "api*",
+        "PORT": "3000",
+        "VERSION": "v1"
+      }
+    },
+    "test": {
+      "command": "jest --verbose --coverage",
+      "env": {
+        "NODE_ENV": "development",
+        "DEBUG": "api*",
+        "PORT": "3000",
+        "API": "v1"
+      }
+    }
+  },
+  "dependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/core-js": "^2.5.2",
+    "@types/debug": "^4.1.4",
+    "@types/express": "^4.17.0",
+    "@types/fs-extra": "^8.0.0",
+    "@types/lodash": "^4.14.136",
+    "@types/lowdb": "^1.0.9",
+    "@types/node": "^12.6.1",
+    "@types/uuid": "^3.4.5",
+    "@types/validator": "^10.11.1",
+    "body-parser": "^1.19.0",
+    "core-js": "^3.1.4",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "fs-extra": "^8.1.0",
+    "lodash": "^4.17.12",
+    "lowdb": "^1.0.0",
+    "sqlite3": "^4.0.9",
+    "tslib": "^1.10.0",
+    "uuid": "^3.3.2",
+    "validator": "^11.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/plugin-proposal-do-expressions": "^7.5.0",
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
+    "@babel/plugin-proposal-function-bind": "^7.2.0",
+    "@babel/plugin-proposal-function-sent": "^7.5.0",
+    "@babel/plugin-proposal-json-strings": "^7.2.0",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.2.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.4.4",
+    "@babel/plugin-proposal-numeric-separator": "^7.2.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.5.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.2.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-syntax-import-meta": "^7.2.0",
+    "@babel/preset-env": "^7.5.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@babel/register": "^7.4.4",
+    "@babel/runtime-corejs3": "^7.5.1",
+    "@types/jest": "^24.0.15",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "acorn": "^6.2.0",
+    "babel-eslint": "^10.0.2",
+    "babel-jest": "^24.8.0",
+    "babel-preset-minify": "^0.5.0",
+    "better-npm-run": "^0.1.1",
+    "eslint": "^6.0.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "jest": "^24.8.0",
+    "jest-mock-process": "^1.2.0",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.3"
+  }
+}

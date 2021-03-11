@@ -1,0 +1,2 @@
+"use strict";var _crypto=_interopRequireDefault(require("crypto"));Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}const hash=a=>{return _crypto.default.createHmac("sha256","shop").update(a).digest("hex")};var _default=hash;exports.default=_default;
+//# sourceMappingURL=hash.js.map
